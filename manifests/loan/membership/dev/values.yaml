@@ -1,7 +1,7 @@
 loans:
   image:
     repository: docker.io/aperturesci/membership
-    tag: main-3b55510
+    tag: main-62fe306
     pullPolicy: Always
   replicaCount: 1
   resources:
