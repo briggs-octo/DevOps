@@ -84,7 +84,7 @@ steps:
               onlytrioapp: "'${{APPNAME}}' == 'trio-app'"
       trivy:
         title: Trivy Security Image Scan
-        image: aquasec/trivy:0.50.4
+        image: aquasec/trivy:0.59.1
         stage: test
         environment:
           - CI = true
