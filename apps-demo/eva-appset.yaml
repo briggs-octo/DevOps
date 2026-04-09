@@ -7,10 +7,8 @@ spec:
   generators:
     - list:
         elements:
-          - cluster: demo-dev
+          - cluster: minikube
             short: dev
-          - cluster: demo-qa
-            short: qa
   template:
     metadata:
       name: 'eva-{{short}}'
